@@ -12,7 +12,13 @@
     (NoModify))
   (Folder "Outputs")
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (BOT_1
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
+      (DeviceIndex "0"))
+    (TOP
+      (LibraryName "D:\PROJECT\CIRCUIT\ORCAD\LIB\TITLE.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
@@ -23,5 +29,16 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
-      (Tab 0))))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 893"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -4 -28 66 1503 81 576")
+        (Scroll "322 662")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "D:\PROJECT\CIRCUIT\HF-FILTER\02V3\HF_FILTER_02V3.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (MPSSessionName "Shcheblykin"))
